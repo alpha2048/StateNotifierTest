@@ -7,7 +7,7 @@ class MainViewModel extends StateNotifier<MainViewModelData> {
 
   void fetch(String keyword) {
     state = state.copyWith(viewModelState: MainViewModelState.loading);
-    getRepository(keyword)
+    getBooks(keyword)
         .then((res) {
           state = state.copyWith(response: res, viewModelState: MainViewModelState.normal);
         }).catchError((_) {
