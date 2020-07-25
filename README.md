@@ -1,6 +1,6 @@
-# 【Flutter】実践！state_notifierとfreezedでGoogle Books アプリを作る
+# 【Flutter】実践！state_notifier + freezedでGoogle Booksアプリを作ってみる
 
-元記事はこちら→[まだない]
+元記事はこちら→[【Flutter】実践！state_notifier + freezedでGoogle Booksアプリを作ってみる](https://qiita.com/alpha2048/items/2222901db961235146c6)
 
 ## Getting Started
 
