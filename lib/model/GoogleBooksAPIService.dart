@@ -4,10 +4,10 @@ import 'package:state_notifier_test/model/GoogleBooksResponse.dart';
 
 Future<GoogleBooksResponse> getBooks(String keyword) async {
 
-  var url = 'https://www.googleapis.com/books/v1/volumes?q=$keyword';
+  final url = 'https://www.googleapis.com/books/v1/volumes?q=$keyword';
   print(url);
 
-  final response = await http.get(url);
+  final response = await http.get(Uri.parse(url));
   if (response.statusCode == 200) {
     return GoogleBooksResponse.fromJson(convert.jsonDecode(response.body));
   } else {
