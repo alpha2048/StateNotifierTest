@@ -35,7 +35,7 @@ dependencies:
   provider: ^6.0.5
   json_annotation: ^4.3.0
   http: ^0.13.3
-  url_launcher: ^6.1.7
+  url_launcher: ^6.1.8
 
 dev_dependencies:
   flutter_test:
