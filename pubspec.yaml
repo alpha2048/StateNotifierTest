@@ -30,7 +30,7 @@ dependencies:
   cupertino_icons: ^1.0.5
 
   state_notifier: ^0.7.2+1
-  flutter_state_notifier: ^0.7.1
+  flutter_state_notifier: ^0.7.3
   freezed_annotation: ^2.0.3
   provider: ^6.0.5
   json_annotation: ^4.3.0
