@@ -30,18 +30,18 @@ dependencies:
   cupertino_icons: ^1.0.5
 
   state_notifier: ^0.7.2+1
-  flutter_state_notifier: ^0.7.1
+  flutter_state_notifier: ^0.7.3
   freezed_annotation: ^2.0.3
   provider: ^6.0.5
-  json_annotation: ^4.3.0
+  json_annotation: ^4.8.0
   http: ^0.13.3
-  url_launcher: ^6.1.7
+  url_launcher: ^6.1.10
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   json_serializable: ^6.6.1
-  build_runner: ^2.0.6
+  build_runner: ^2.3.3
   freezed: ^2.3.2
 
 # For information on the generic Dart part of this file, see the
