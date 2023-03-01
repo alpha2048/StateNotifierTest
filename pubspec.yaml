@@ -33,7 +33,7 @@ dependencies:
   flutter_state_notifier: ^0.7.3
   freezed_annotation: ^2.0.3
   provider: ^6.0.5
-  json_annotation: ^4.3.0
+  json_annotation: ^4.8.0
   http: ^0.13.3
   url_launcher: ^6.1.7
 
